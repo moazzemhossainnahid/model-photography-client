@@ -11,7 +11,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 function App() {
 
   return (
-    <div className="container w-full">
+    <div className="App pt-20 overflow-hidden">
       <Header />
       <div className="">
         <Routes>
