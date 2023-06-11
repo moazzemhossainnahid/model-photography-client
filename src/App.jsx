@@ -11,7 +11,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 function App() {
 
   return (
-    <>
+    <div className="container w-full">
       <Header />
       <div className="">
         <Routes>
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

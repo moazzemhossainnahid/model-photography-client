@@ -2,8 +2,8 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
-            <figure class="mb-4 inline-block max-w-sm">
+        <div className='container w-full mx-auto'>
+            {/* <figure class="mb-4 inline-block max-w-sm">
                 <img
                     src="https://tecdn.b-cdn.net/img/new/standard/city/041.webp"
                     class="mb-4 h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
@@ -23,7 +23,7 @@ const Home = () => {
                     type="file"
                     id="formFileMultiple"
                     multiple />
-            </div>
+            </div> */}
         </div>
     );
 };
