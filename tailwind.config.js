@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./node_modules/tw-elements/dist/js/**/*.js"],
   daisyui: {
     themes: [
       {
@@ -33,5 +33,5 @@ module.exports = {
       "dracula",
     ],
   },
-  plugins: [require("daisyui")],
-};
+  plugins: [require("daisyui"), require("tw-elements/dist/plugin")]
+}
