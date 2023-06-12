@@ -17,8 +17,8 @@ const MissionVision = () => {
 
                 <div className='w-full md:w-3/5 order-1 md:order-2 mx-auto md:text-left px-3'>
                     <Bounce bottom>
-                        <h2 className='text-white font-bold text-3xl pb-2'>Mission Vision</h2>
-                        <div className="text-[#C9C9C9] space-y-2 text-start">
+                        <h2 className='text-gray-600 font-bold text-3xl pb-2'>Our Mission</h2>
+                        <div className="text-[#5a5a5a] space-y-2 text-start">
                             <p className='mt-2' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                                 been the industry's standard dummy text ever since the 1500s, when an unknown printer
                                 took a galley of type and scrambled it to make a type specimen book. It has survived not
@@ -43,8 +43,8 @@ const MissionVision = () => {
 
                 <div className='w-full md:w-3/5 order-2 md:order-1 mx-auto md:text-left px-3'>
                     <Bounce left>
-                        <h2 className='text-white font-bold text-3xl pb-2'>Mission Vision</h2>
-                        <div className="text-[#C9C9C9] space-y-2 text-start">
+                        <h2 className='text-gray-600 font-bold text-3xl pb-2'>Our Vision</h2>
+                        <div className="text-[#5a5a5a] space-y-2 text-start">
                             <p className='mt-2' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                                 been the industry's standard dummy text ever since the 1500s, when an unknown printer
                                 took a galley of type and scrambled it to make a type specimen book. It has survived not

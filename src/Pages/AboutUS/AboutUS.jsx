@@ -6,7 +6,7 @@ import FAQ from '../../Components/AboutUS/FAQ/FAQ';
 
 const AboutUS = () => {
     return (
-        <div className='container bg-white w-full'>
+        <div className='container w-full'>
             <AboutMission />
             <MissionVision />
             <ReadyToTalk /> 
