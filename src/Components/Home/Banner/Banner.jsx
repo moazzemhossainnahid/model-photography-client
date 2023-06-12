@@ -3,10 +3,11 @@ import Slide from 'react-reveal/Slide';
 
 const Banner = () => {
 
+
     return (
         <div
             id="carouselExampleCaptions"
-            class="relative h-[80vh]"
+            class="relative bg-[#252525b6] h-[80vh]"
             data-bs-interval="true"
             data-te-carousel-init
             data-te-carousel-slide>
@@ -46,17 +47,37 @@ const Banner = () => {
                     data-te-carousel-item
                     style={{ backfaceVisibility: "hidden" }}>
                     <img
-                        src="https://i.ibb.co/TBGYp09/bag-with-measurements.jpg"
+                        src="https://i.ibb.co/0sbzkgf/h2-slider-1-background.jpg"
                         class="block object-cover mix-blend-overlay duration-75 h-[80vh] w-full"
                         alt="..." />
-                    <div class="absolute space-y-5 inset-x-[15%] mb-40 bottom-5 hidden py-5 text-center text-white md:block">
-                        <Slide top duration={1500}>
+                    <div class="absolute space-y-5 mb-40 left-32 bottom-5 hidden py-5 text-left text-black md:block">
+                        <Slide right duration={1500}>
                             <div className="">
-                                <h5 style={{ fontFamily: "Rajdhani" }} class="text-4xl md:text-7xl font-bold">Amazing Discounts</h5>
+                                <h5 style={{ fontFamily: "Rajdhani" }} class="text-4xl md:text-7xl font-bold">The New Faces</h5>
                             </div>
                         </Slide>
-                        <Slide bottom duration={1500}>
-                            <p className='font-semibold capitalize text-xl tracking-wider'>Shop online and get an extra discount for every order today.</p>
+                        <Slide right duration={1750}>
+                            <div className="">
+                                <img src="https://estelle.qodeinteractive.com/wp-content/uploads/2019/05/h6-separator-img.png" alt="" className="" />                            </div>
+                        </Slide>
+                        <Slide right duration={2000}>
+                            <p className='font-semibold w-3/5 capitalize text-xl tracking-wider'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, error? Alias, earum magni. Illum dolore laboriosam animi praesentium! Incidunt.</p>
+                        </Slide>
+                        <Slide right duration={2250}>
+                            <div className="flex gap-3 justify-start items-center">
+                                <button
+                                    type="button"
+                                    class="inline-block rounded border-2 border-primary-100 bg-black text-white px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-10 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-accent-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                                    data-te-ripple-init>
+                                    DISCOVER
+                                </button>
+                                <button
+                                    type="button"
+                                    class="inline-block rounded border-2 border-primary-100 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-10 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-accent-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                                    data-te-ripple-init>
+                                    JOIN US
+                                </button>
+                            </div>
                         </Slide>
                     </div>
                 </div>
@@ -66,17 +87,37 @@ const Banner = () => {
                     data-te-carousel-item
                     style={{ backfaceVisibility: "hidden" }}>
                     <img
-                        src="https://i.ibb.co/zF6YNSN/BELLADI-TAG.jpg"
+                        src="https://i.ibb.co/tHC845Y/h2-slider-2-background.jpg"
                         class="block object-cover mix-blend-overlay duration-75 h-[80vh] w-full"
                         alt="..." />
-                    <div class="absolute space-y-5 inset-x-[15%] mb-40 bottom-5 hidden py-5 text-center text-white md:block">
-                        <Slide top duration={1500}>
+                    <div class="absolute space-y-5 mb-40 left-32 bottom-5 hidden py-5 text-left text-black md:block">
+                        <Slide right duration={1500}>
                             <div className="">
-                                <h5 style={{ fontFamily: "Rajdhani" }} class="text-4xl md:text-7xl font-bold">Amazing Discounts</h5>
+                                <h5 style={{ fontFamily: "Rajdhani" }} class="text-4xl md:text-7xl font-bold">The New Faces</h5>
                             </div>
                         </Slide>
-                        <Slide bottom duration={1500}>
-                            <p className='font-semibold capitalize text-xl tracking-wider'>Shop online and get an extra discount for every order today.</p>
+                        <Slide right duration={1750}>
+                            <div className="">
+                                <img src="https://estelle.qodeinteractive.com/wp-content/uploads/2019/05/h6-separator-img.png" alt="" className="" />                            </div>
+                        </Slide>
+                        <Slide right duration={2000}>
+                            <p className='font-semibold w-3/5 capitalize text-xl tracking-wider'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, error? Alias, earum magni. Illum dolore laboriosam animi praesentium! Incidunt.</p>
+                        </Slide>
+                        <Slide right duration={2250}>
+                            <div className="flex gap-3 justify-start items-center">
+                                <button
+                                    type="button"
+                                    class="inline-block rounded border-2 border-primary-100 bg-black text-white px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-10 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-accent-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                                    data-te-ripple-init>
+                                    DISCOVER
+                                </button>
+                                <button
+                                    type="button"
+                                    class="inline-block rounded border-2 border-primary-100 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-10 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-accent-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                                    data-te-ripple-init>
+                                    JOIN US
+                                </button>
+                            </div>
                         </Slide>
                     </div>
                 </div>
@@ -86,17 +127,37 @@ const Banner = () => {
                     data-te-carousel-item
                     style={{ backfaceVisibility: "hidden" }}>
                     <img
-                        src="https://i.ibb.co/ccp7N5v/Belladi-package-3-D.jpg"
+                        src="https://i.ibb.co/jh4YYLF/h2-slider-3-background.jpg"
                         class="block object-cover mix-blend-overlay duration-75 h-[80vh] w-full"
                         alt="..." />
-                    <div class="absolute space-y-5 inset-x-[15%] mb-40 bottom-5 hidden py-5 text-center text-white md:block">
-                        <Slide top duration={1500}>
+                    <div class="absolute space-y-5 mb-40 left-32 bottom-5 hidden py-5 text-left text-black md:block">
+                        <Slide right duration={1500}>
                             <div className="">
-                                <h5 style={{ fontFamily: "Rajdhani" }} class="text-4xl md:text-7xl font-bold">Amazing Discounts</h5>
+                                <h5 style={{ fontFamily: "Rajdhani" }} class="text-4xl md:text-7xl font-bold">The New Faces</h5>
                             </div>
                         </Slide>
-                        <Slide bottom duration={1500}>
-                            <p className='font-semibold capitalize text-xl tracking-wider'>Shop online and get an extra discount for every order today.</p>
+                        <Slide right duration={1750}>
+                            <div className="">
+                                <img src="https://estelle.qodeinteractive.com/wp-content/uploads/2019/05/h6-separator-img.png" alt="" className="" />                            </div>
+                        </Slide>
+                        <Slide right duration={2000}>
+                            <p className='font-semibold w-3/5 capitalize text-xl tracking-wider'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, error? Alias, earum magni. Illum dolore laboriosam animi praesentium! Incidunt.</p>
+                        </Slide>
+                        <Slide right duration={2250}>
+                            <div className="flex gap-3 justify-start items-center">
+                                <button
+                                    type="button"
+                                    class="inline-block rounded border-2 border-primary-100 bg-black text-white px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-10 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-accent-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                                    data-te-ripple-init>
+                                    DISCOVER
+                                </button>
+                                <button
+                                    type="button"
+                                    class="inline-block rounded border-2 border-primary-100 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-10 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-accent-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                                    data-te-ripple-init>
+                                    JOIN US
+                                </button>
+                            </div>
                         </Slide>
                     </div>
                 </div>
