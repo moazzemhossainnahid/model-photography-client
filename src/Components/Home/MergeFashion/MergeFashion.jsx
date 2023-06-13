@@ -28,8 +28,12 @@ const MergeFashion = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-3/6 hidden md:flex mx-auto justify-center gap-7">
-                        <img src="https://estelle.qodeinteractive.com/wp-content/uploads/2019/04/h2-img-4.jpg" alt="" className="w-72" />
-                        <img src="https://estelle.qodeinteractive.com/wp-content/uploads/2019/04/h2-img-5.jpg" alt="" className="w-72" />
+                        <Slide right duration={1000}>
+                            <img src="https://estelle.qodeinteractive.com/wp-content/uploads/2019/04/h2-img-4.jpg" alt="" className="w-72" />
+                        </Slide>
+                        <Slide right duration={2000}>
+                            <img src="https://estelle.qodeinteractive.com/wp-content/uploads/2019/04/h2-img-5.jpg" alt="" className="w-72" />
+                        </Slide>
                     </div>
                 </div>
             </div>
