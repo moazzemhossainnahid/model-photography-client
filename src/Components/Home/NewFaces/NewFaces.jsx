@@ -4,7 +4,7 @@ import { NewFacesData } from '../../../Data/NewFacesData';
 
 const NewFaces = () => {
     return (
-        <div className='container w-full flex flex-col justify-center mx-auto text-center py-10'>
+        <div className='w-full flex flex-col justify-center mx-auto text-center pt-10 pb-5'>
             <Slide right duration={1000}>
                 <div className="">
                     <h5 style={{ fontFamily: "Rajdhani" }} class="text-4xl capitalize md:text-7xl font-bold">NEW FACES</h5>

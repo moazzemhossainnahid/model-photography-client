@@ -3,7 +3,7 @@ import { Slide } from 'react-reveal';
 
 const OurPhilosophy = () => {
     return (
-        <div className='container w-full mx-auto py-10'>
+        <div className='w-full mx-auto py-10 p-5'>
             <div className="w-full flex justify-center py-7">
                 <Slide left duration={1000}>
                     <img src="https://wiso.foxthemes.me/wp-content/uploads/2018/06/stamp-I.png" alt="img" className="" />
