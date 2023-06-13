@@ -5,6 +5,7 @@ import NewFaces from '../../Components/Home/NewFaces/NewFaces';
 import MergeFashion from '../../Components/Home/MergeFashion/MergeFashion';
 import MeetTeam from '../../Components/Home/MeetTeam/MeetTeam';
 import OurProgress from '../../Components/Home/OurProgress/OurProgress';
+import WeMergeFashion from '../../Components/Home/WeMergeFashion/WeMergeFashion';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <MergeFashion/>
             <MeetTeam/>
             <OurProgress/>
+            <WeMergeFashion/>
         </div>
     );
 };
