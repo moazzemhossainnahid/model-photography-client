@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-reveal';
-import { FaBars, FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { TeamsData } from '../../../Data/TeamsData';
 
 const MeetTeam = () => {
@@ -28,8 +28,8 @@ const MeetTeam = () => {
                             <Slide bottom duration={2000}>
                                 <img src={d?.imageURL} alt="" className="w-full" />
                             </Slide>
-                                <h5 style={{ fontFamily: "Rajdhani" }} class="text-2xl capitalize md:text-3xl font-bold"><Slide bottom duration={1500}>{d?.name}</Slide></h5> 
-                                <h5 style={{ fontFamily: "Rajdhani" }} class="text-md font-semibold"><Slide bottom duration={2000}>{d?.title}</Slide></h5>
+                            <h5 style={{ fontFamily: "Rajdhani" }} class="text-2xl capitalize md:text-3xl font-bold"><Slide bottom duration={1500}>{d?.name}</Slide></h5>
+                            <h5 style={{ fontFamily: "Rajdhani" }} class="text-md font-semibold"><Slide bottom duration={2000}>{d?.title}</Slide></h5>
                             <Slide bottom duration={2500}>
                                 <div className="w-full flex gap-5 pt-3 justify-center items-center">
                                     <FaFacebook className='text-md' />

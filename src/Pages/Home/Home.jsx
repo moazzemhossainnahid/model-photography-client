@@ -4,6 +4,7 @@ import OurPhilosophy from '../../Components/Home/OurPhilosophy/OurPhilosophy';
 import NewFaces from '../../Components/Home/NewFaces/NewFaces';
 import MergeFashion from '../../Components/Home/MergeFashion/MergeFashion';
 import MeetTeam from '../../Components/Home/MeetTeam/MeetTeam';
+import OurProgress from '../../Components/Home/OurProgress/OurProgress';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <NewFaces/>
             <MergeFashion/>
             <MeetTeam/>
+            <OurProgress/>
         </div>
     );
 };
